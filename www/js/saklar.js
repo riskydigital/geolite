@@ -505,7 +505,7 @@ $(window).load(function() {
           window.processing = false;
           window.connected = true;
           $('#loading').hide();
-          Materialize.toast('Semua GPIO ON', 2000);
+          Materialize.toast('Semua PERANGKAT ON', 2000);
         } else {
           window.processing = false;
           $('#loading').hide();
@@ -545,7 +545,7 @@ $(window).load(function() {
           window.processing = false;
           window.connected = true;
           $('#loading').hide();
-          Materialize.toast('Semua GPIO OFF', 2000);
+          Materialize.toast('Semua PERANGKAT OFF', 2000);
         } else {
           window.processing = false;
           $('#loading').hide();

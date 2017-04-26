@@ -1,7 +1,7 @@
 <?php 
   
   $password="3420";        // password untuk login ke server saklarku
-  $scriptlocation="script/gpio.sh";    // lokasi server, relatif ke file index.php ini
+  $scriptlocation="power/geolite.sh";    // lokasi server, relatif ke file index.php ini
 
   header('Cache-Control: no-cache, must-revalidate');
   header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
